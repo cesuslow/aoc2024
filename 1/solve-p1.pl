@@ -33,7 +33,8 @@ for my $i (0 .. $#a0) {
 #print "$a0[0], $a1[0], $d[0]\n";
 #print join("\n", @d);
 
-# compute and print total
+# compute and print total -> Part 1 Solution
 my $total = 0;
 map { $total += $_ } @d;
 print "$total\n";
+
